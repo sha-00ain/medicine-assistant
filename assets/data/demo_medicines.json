@@ -1,0 +1,992 @@
+{
+ "medicines": [
+  {
+   "id": "demomol-250",
+   "brandName": "DemoMol",
+   "aliases": [
+    "ডেমোমল"
+   ],
+   "genericName": "Demo Generic A",
+   "ingredients": [
+    "Demo Generic A"
+   ],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "directions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - গ্রহণের নিয়ম: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Directions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "dosage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - ডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Dosage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "contraindications": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - যেসব ক্ষেত্রে ব্যবহার করা যাবে না: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Contraindications: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "warnings": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - সতর্কতা: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Warnings: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "overdose": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - ওভারডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Overdose: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pregnancy": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - গর্ভাবস্থা ও স্তন্যদান: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Pregnancy and breastfeeding: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "mechanism": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - কীভাবে কাজ করে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Mechanism: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "interactions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - পারস্পরিক প্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Interactions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pediatric": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - শিশুদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Pediatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "geriatric": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - বয়স্কদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Geriatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "kidney": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - কিডনি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Kidney cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "liver": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - লিভার: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Liver cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "storage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 250 mg - সংরক্ষণবিধি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 250 mg - Storage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   },
+   "strength": "250 mg",
+   "dosageForm": "Tablet",
+   "manufacturer": "Demo Pharma Ltd",
+   "price": {
+    "amount": 20.0,
+    "currency": "BDT",
+    "country": "BD",
+    "packSize": "10 tablets",
+    "lastVerified": "2026-10-13",
+    "source": {
+     "name": "Demo dataset (placeholder)",
+     "url": "https://example.org/demo-dataset",
+     "lastChecked": "2026-10-13",
+     "verification": "demo"
+    },
+    "unitCount": 10
+   }
+  },
+  {
+   "id": "demomol-500",
+   "brandName": "DemoMol",
+   "aliases": [
+    "ডেমোমল"
+   ],
+   "genericName": "Demo Generic A",
+   "ingredients": [
+    "Demo Generic A"
+   ],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "directions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - গ্রহণের নিয়ম: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Directions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "dosage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - ডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Dosage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "contraindications": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - যেসব ক্ষেত্রে ব্যবহার করা যাবে না: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Contraindications: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "warnings": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - সতর্কতা: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Warnings: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "overdose": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - ওভারডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Overdose: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pregnancy": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - গর্ভাবস্থা ও স্তন্যদান: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Pregnancy and breastfeeding: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "mechanism": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - কীভাবে কাজ করে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Mechanism: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "interactions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - পারস্পরিক প্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Interactions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pediatric": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - শিশুদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Pediatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "geriatric": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - বয়স্কদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Geriatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "kidney": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - কিডনি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Kidney cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "liver": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - লিভার: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Liver cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "storage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 500 mg - সংরক্ষণবিধি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 500 mg - Storage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   },
+   "strength": "500 mg",
+   "dosageForm": "Tablet",
+   "manufacturer": "Demo Pharma Ltd",
+   "price": {
+    "amount": 40.0,
+    "currency": "BDT",
+    "country": "BD",
+    "packSize": "10 tablets",
+    "lastVerified": "2026-10-13",
+    "source": {
+     "name": "Demo dataset (placeholder)",
+     "url": "https://example.org/demo-dataset",
+     "lastChecked": "2026-10-13",
+     "verification": "demo"
+    },
+    "unitCount": 10
+   }
+  },
+  {
+   "id": "demomol-syrup",
+   "brandName": "DemoMol",
+   "aliases": [
+    "ডেমোমল"
+   ],
+   "genericName": "Demo Generic A",
+   "ingredients": [
+    "Demo Generic A"
+   ],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "directions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - গ্রহণের নিয়ম: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Directions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "dosage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - ডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Dosage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "contraindications": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - যেসব ক্ষেত্রে ব্যবহার করা যাবে না: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Contraindications: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "warnings": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - সতর্কতা: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Warnings: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "overdose": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - ওভারডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Overdose: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pregnancy": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - গর্ভাবস্থা ও স্তন্যদান: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Pregnancy and breastfeeding: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "mechanism": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - কীভাবে কাজ করে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Mechanism: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "interactions": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - পারস্পরিক প্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Interactions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pediatric": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - শিশুদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Pediatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "kidney": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - কিডনি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Kidney cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "storage": {
+     "text": {
+      "bn": "[ডেমো] DemoMol 120 mg/5 ml - সংরক্ষণবিধি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] DemoMol 120 mg/5 ml - Storage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   },
+   "strength": "120 mg/5 ml",
+   "dosageForm": "Syrup",
+   "manufacturer": "Demo Pharma Ltd",
+   "price": {
+    "amount": 55.0,
+    "currency": "BDT",
+    "country": "BD",
+    "packSize": "60 ml bottle",
+    "lastVerified": "2026-10-13",
+    "source": {
+     "name": "Demo dataset (placeholder)",
+     "url": "https://example.org/demo-dataset",
+     "lastChecked": "2026-10-13",
+     "verification": "demo"
+    }
+   }
+  },
+  {
+   "id": "alphademo",
+   "brandName": "AlphaDemo",
+   "aliases": [],
+   "genericName": "Demo Generic B",
+   "ingredients": [
+    "Demo Generic B"
+   ],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "directions": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - গ্রহণের নিয়ম: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Directions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "dosage": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - ডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Dosage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "contraindications": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - যেসব ক্ষেত্রে ব্যবহার করা যাবে না: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Contraindications: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "warnings": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - সতর্কতা: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Warnings: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "overdose": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - ওভারডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Overdose: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pregnancy": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - গর্ভাবস্থা ও স্তন্যদান: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Pregnancy and breastfeeding: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "mechanism": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - কীভাবে কাজ করে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Mechanism: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "interactions": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - পারস্পরিক প্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Interactions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "pediatric": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - শিশুদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Pediatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "geriatric": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - বয়স্কদের ক্ষেত্রে: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Geriatric use: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "kidney": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - কিডনি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Kidney cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "liver": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - লিভার: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Liver cautions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "storage": {
+     "text": {
+      "bn": "[ডেমো] AlphaDemo 10 mg - সংরক্ষণবিধি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] AlphaDemo 10 mg - Storage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   },
+   "strength": "10 mg",
+   "dosageForm": "Tablet",
+   "manufacturer": "Sample Labs Ltd",
+   "price": {
+    "amount": 30.0,
+    "currency": "BDT",
+    "country": "BD",
+    "packSize": "10 tablets",
+    "lastVerified": "2026-10-13",
+    "source": {
+     "name": "Demo dataset (placeholder)",
+     "url": "https://example.org/demo-dataset",
+     "lastChecked": "2026-10-13",
+     "verification": "demo"
+    },
+    "unitCount": 10
+   }
+  },
+  {
+   "id": "betademo",
+   "brandName": "BetaDemo",
+   "aliases": [],
+   "genericName": "Demo Generic B",
+   "ingredients": [
+    "Demo Generic B"
+   ],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "directions": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - গ্রহণের নিয়ম: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Directions: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "dosage": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - ডোজ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Dosage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "warnings": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - সতর্কতা: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Warnings: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "storage": {
+     "text": {
+      "bn": "[ডেমো] BetaDemo 10 mg - সংরক্ষণবিধি: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] BetaDemo 10 mg - Storage: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   },
+   "strength": "10 mg",
+   "dosageForm": "Tablet",
+   "manufacturer": "Test Pharma Ltd",
+   "price": {
+    "amount": 28.0,
+    "currency": "BDT",
+    "country": "BD",
+    "packSize": "10 tablets",
+    "lastVerified": "2026-10-13",
+    "source": {
+     "name": "Demo dataset (placeholder)",
+     "url": "https://example.org/demo-dataset",
+     "lastChecked": "2026-10-13",
+     "verification": "demo"
+    },
+    "unitCount": 10
+   }
+  },
+  {
+   "id": "gammademo",
+   "brandName": "GammaDemo",
+   "aliases": [],
+   "genericName": "Demo Generic C",
+   "ingredients": [],
+   "isDemo": true,
+   "identitySource": {
+    "name": "Demo dataset (placeholder)",
+    "url": "https://example.org/demo-dataset",
+    "lastChecked": "2026-10-13",
+    "verification": "demo"
+   },
+   "sections": {
+    "uses": {
+     "text": {
+      "bn": "[ডেমো] GammaDemo - ব্যবহারসমূহ: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] GammaDemo - Uses: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    },
+    "sideEffects": {
+     "text": {
+      "bn": "[ডেমো] GammaDemo - পার্শ্বপ্রতিক্রিয়া: এটি পরীক্ষার জন্য বসানো লেখা, আসল চিকিৎসা তথ্য নয়।",
+      "en": "[DEMO] GammaDemo - Side effects: placeholder text for testing, not real medical information."
+     },
+     "source": {
+      "name": "Demo dataset (placeholder)",
+      "url": "https://example.org/demo-dataset",
+      "lastChecked": "2026-10-13",
+      "verification": "demo"
+     }
+    }
+   }
+  }
+ ]
+}
