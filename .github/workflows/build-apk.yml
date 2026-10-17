@@ -1,4 +1,3 @@
-
 name: Build Medicine Assistant APK
 
 on:
@@ -36,7 +35,23 @@ jobs:
       - name: Build release APK
         run: flutter build apk --release
 
+      - name: Diagnose MainActivity and R8
+        if: always()
+        run: |
+          echo "=== gradle.properties ==="
+          cat android/gradle.properties || true
+
+          echo "=== MainActivity class files ==="
+          find android build -name 'MainActivity*.class' -print 2>/dev/null || true
+
+          echo "=== R8 output files ==="
+          find build -type f \( -name 'mapping.txt' -o -name 'usage.txt' -o -name 'seeds.txt' -o -name 'configuration.txt' \) -print 2>/dev/null || true
+
+          echo "=== MainActivity in R8 files ==="
+          grep -R -n 'MainActivity\|com.example.medicine_app' build 2>/dev/null | head -100 || true
+
       - name: Upload APK
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: Medicine-Assistant-APK
