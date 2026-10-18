@@ -16,7 +16,3 @@
 -dontwarn com.google.mlkit.vision.text.japanese.JapaneseTextRecognizerOptions
 -dontwarn com.google.mlkit.vision.text.korean.KoreanTextRecognizerOptions$Builder
 -dontwarn com.google.mlkit.vision.text.korean.KoreanTextRecognizerOptions
-# Keep Google ML Kit Text Recognition classes.
--keep class com.google.mlkit.vision.text.** { *; }
--keep class com.google.mlkit.vision.common.** { *; }
--keep class com.google.android.gms.internal.mlkit_vision_text.** { *; }
