@@ -33,7 +33,7 @@ android {
     buildTypes {
         release {
             // Apply ProGuard rules for ML Kit OCR
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
